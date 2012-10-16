@@ -1,0 +1,158 @@
+.view-profile {
+	font-weight: normal;
+	font-size: 12px;
+	color: @grayLight;
+}
+
+.nav {
+	a {
+		img {
+			.square(32px);
+			padding: 3px 10px 0 0;
+			display: block;
+			float: left;
+		}
+
+		i {
+			// margin-left: -20px;
+			padding-right: 5px;
+		}
+	}
+}
+
+a.back {
+	color: @black;
+	font-weight: bold;
+}
+
+.notifications {
+	.badge {
+		position: relative;
+		top: -6px;
+	}
+}
+
+.listing {
+	display: block;
+	margin-bottom: 20px;
+	color: @black;
+
+	&:hover {
+		color: @black;
+		text-decoration: none;
+	}
+
+	img.business-photo {
+		margin: 10px 0;
+	}
+
+	small {
+		display: block;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		margin-bottom: 0;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 200;
+	}
+
+	p:first-letter {
+		font-size: 24px;
+		font-family: @serifFontFamily;
+	}
+}
+
+.stats {
+	font-size: 12px;
+	color: @grayLight;
+	text-transform: uppercase;
+
+	span {
+		margin-right: 10px;
+	}
+}
+
+.actions {
+	.btn {
+		width: 50%;
+		font-size: 12px;
+		text-transform: uppercase;
+
+		i {
+			position: relative;
+			top: -2px;
+		}
+	}
+}
+
+.see-map {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 10px 0;
+	background-color: @grayDark;
+	text-align: center;
+	text-transform: uppercase;
+
+	a {
+		display: block;
+		color: @white;
+	}
+}
+
+.popover-content {
+	padding: 0;
+
+	ul {
+		li {
+			border-bottom: 1px solid @grayLighter;
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			a {
+				display: block;
+				padding: 5px 10px;
+				color: @grayDark;
+
+				&:hover {
+					color: @grayDark;
+					text-decoration: none;
+				}
+
+				span {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
+
+.common-actions {
+	margin-top: 5px;
+}
+
+.unique-actions {
+	margin: 0 0 0 5px;
+}
+
+.contact-details {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px @grayLight solid;
+	.border-radius(5px);
+	background-color: @grayLighter;
+
+	address {
+		margin: 0;
+		font-size: 12px;
+	}
+}
+
+.navbar-search input {
+	width: 145px;
+}
