@@ -10,15 +10,14 @@
 		    <button class="btn"><i class="icon-thumbs-up"></i></button>
 		    <button class="btn"><i class="icon-thumbs-down"></i></button>
 	  	</div>
-	    
-	    <div class="btn-group pull-right">
-		    <button class="btn">Call</button>
-		    <button class="btn">Map</button>
-		    <button class="btn">Directions</button>
-	  	</div>
 	  	
   	</div>
     <img src="img/view202.jpg" alt="View 202" class="business-photo">
+    <div class="btn-group">
+		  <button class="btn">Call</button>
+		  <button class="btn">Map</button>
+		  <button class="btn">Directions</button>
+	  </div><br>
     <div class="contact-details">
     	<address>
     		202 Hemsted Ave.<br>
