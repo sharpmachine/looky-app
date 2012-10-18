@@ -2,7 +2,7 @@
 <?php include('menu.php'); ?>
 <a href="#" class="back"><i class="icon-arrow-left"></i> Back</a>
 <div class="span4 listing">
-    <h2>View 202 Drilldown</h2>
+    <h2>View 202</h2>
     <small>Restaurant</small>
     <?php include('stats.php'); ?>
     <div class="common-actions">
@@ -13,19 +13,19 @@
 	  	
   	</div>
     <img src="img/view202.jpg" alt="View 202" class="business-photo">
-    <div class="btn-group">
+    <div class="contact-details">
+    	<div class="btn-group">
 		  <button class="btn">Call</button>
 		  <button class="btn">Map</button>
 		  <button class="btn">Directions</button>
-	  </div><br>
-    <div class="contact-details">
+	  </div>
     	<address>
     		202 Hemsted Ave.<br>
     		Redding, Ca 96001<br>
     		530-226-VIEW (8439)
     	</address>
     </div>
-    <div class="unique-actions btn-group pull-right">
+    <div class="unique-actions btn-group">
     	<button class="btn btn-large"><i class="icon-eye-open"></i> Menu</button>
     	<button class="btn btn-large"><i class="icon-book"></i> Reservations</button>
   	</div><br>

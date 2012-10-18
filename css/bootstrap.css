@@ -4969,7 +4969,6 @@ a.back {
 }
 .contact-details {
   margin-bottom: 10px;
-  padding: 10px;
   border: 1px #999999 solid;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4978,6 +4977,7 @@ a.back {
 }
 .contact-details address {
   margin: 0;
+  padding: 10px;
   font-size: 12px;
 }
 .navbar-search input {
