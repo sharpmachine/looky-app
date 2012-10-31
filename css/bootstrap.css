@@ -4965,7 +4965,7 @@ a.back {
   margin-top: 5px;
 }
 .unique-actions {
-  margin: 0 0 0 5px;
+  margin-left: 5px;
 }
 .contact-details {
   margin-bottom: 10px;
@@ -4982,6 +4982,9 @@ a.back {
 }
 .navbar-search input {
   width: 110px;
+}
+.small {
+  font-size: 12px;
 }
 .pull-right {
   float: right;
