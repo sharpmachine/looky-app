@@ -6,7 +6,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Looky</a>
+          <a class="brand" href="home.php">Looky</a>
           <a href="#" class="brand notifications" rel="popover" title="Notifications" data-placement="bottom" data-content="<?php include('notifications.php'); ?>"><i class="icon-globe icon-white"></i><span class="badge badge-important">3</span></a>
           <form class="navbar-search pull-right">
             <input type="search" class="search-query" placeholder="Search">

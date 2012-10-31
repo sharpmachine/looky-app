@@ -15,4 +15,5 @@
 		</tr>
 	</tbody>
 </table>
+
 <?php include('footer.php'); ?>
